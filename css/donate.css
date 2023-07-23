@@ -1,0 +1,302 @@
+ /*My default styling  */
+
+
+ :root{
+    --bg-primary:#0A4D68;
+    --color-primary: #088395;
+  }
+  
+  html{
+    scroll-behavior: smooth;
+    
+  }
+  
+  body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  header{
+    background: var(--bg-primary);
+    padding: 10px;
+  }
+  
+  a,  a:focus{
+  color: #B2BEB5;
+    text-decoration: none;
+  }
+  
+  ul{
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  li{
+    list-style: none;
+  }
+  
+  h1,h2,h3,h4,h5,h6{
+    font-weight: 700;
+  }
+  
+  h2{
+    font-size: 44px;
+    margin-bottom: 15px;
+  }
+  
+  h3{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 600;
+  }
+  
+  
+  section, .container{
+    position: relative;
+  }
+  
+  
+   /*  */
+   /*  */
+   /*  */
+  /*  */
+  
+    /* navigation styling */
+    .nav-item {
+          font-size:18px;
+          text-transform:uppercase;
+          height:82px;
+          line-height:64px;
+        }
+  
+        .nav-link{
+          color: #fff;
+        }
+        .flare {
+          background:#0A4D68;
+        }
+        .flare a.nav-link {
+          color:#fff !important
+        }
+        .topbarElements > div:nth-of-type(1){
+          font-size:48px;
+          margin:12px 32px;
+          color:#0A4D68
+        }
+        @media screen and (min-width:1040px){
+          .flare { margin-right:-15px; }
+        }
+        @media screen and (max-width:1029px){
+          .navbar-nav {
+            margin-bottom:15px;
+            text-align:center
+          }
+          .nav-item {
+            background : rgba(255,255,255,0.1);
+            margin:2px;
+          }
+        }
+
+.phone-class{
+  color: #0A4D68 !important;
+
+}
+  
+  /* end of Navigation styling */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /* beginning of Hero Banner Styling */
+  
+  #hero-banner{
+    background: url(../images/homepage/donate.jpg) no-repeat;
+    background-size: cover;
+    padding: 200px 0px;
+    min-height: 500px;
+    position: relative;
+    margin: auto;
+  }
+  
+  #hero-banner::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(3, 60, 73, 0.795);
+  }
+  
+  @media screen and (max-width: 900px) {
+    #hero-banner{
+    max-height: 700px;
+      }
+    
+  }
+  
+  
+  .bannerdiv{
+    align-content: center;
+    width: 850px;
+  
+  }
+  
+  @media screen and (max-width: 900px) {
+    .bannerdiv{
+    align-items: center;
+    width: auto;
+    margin-bottom: 60px;
+  
+      }
+    
+  }
+  
+  
+  
+  
+  .banner-text-wrap h1{
+    font-size: 80px;
+    font-weight: 900;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    
+  }
+  
+  @media screen and (max-width: 900px) {
+    .banner-text-wrap h1{
+      font-size: 60px;
+      font-weight: 900;
+      text-align: center;
+      font-family: 'Roboto', sans-serif;
+      
+      }
+    
+  }
+  
+  
+  .landpage-p{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    line-height: 1.8;
+    color: #fff;
+  }
+  
+  /* .btn-enroll{
+    margin-left: 50%;
+    transform: translateX(-50%);
+  } */
+  
+  
+  
+  
+  
+  
+  
+
+  /* gallery */
+.past-event{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.h3-event{
+  color: #088395;
+  padding-bottom: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.p-h3-event{
+  text-align: justify;
+  line-height: 1.8rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+  .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+  .b-example-divider {
+    width: 100%;
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+
+  .b-example-vr {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 100vh;
+  }
+
+  .bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+  }
+
+  .nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+  }
+
+  #footer-section{
+    background-color: #0A4D68;
+  }
+
+
+  /* donation items */
+
+  .section-title{
+    margin-bottom: 60px;
+  }
+
+  #donations{
+    padding: 100px 0px 50px;
+    background: #efefef;
+  }
+
+  .service-boxes{
+    background: #fff;
+    padding: 30px;
+    margin-bottom: 50px;
+    text-align: center;    
+  }
+
+/* 
+  .icon-animation{
+    
+  } */
+
+
+  .shake:hover{
+    animation:shaking 0.5s infinite;
+  }
+  
+  @keyframes shaking {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(5deg); }
+    50% { transform: rotate(0eg); }
+    75% { transform: rotate(-5deg); }
+    100% { transform: rotate(0deg); }
+  }
