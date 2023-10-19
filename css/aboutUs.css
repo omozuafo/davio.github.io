@@ -19,6 +19,8 @@
     font-family: 'Open Sans', sans-serif;
     margin: 0px;
     padding: 0px;
+    overflow-y: scroll;
+    overflow-x: hidden;
     
   }
   
@@ -66,7 +68,9 @@
   section, .container{
     position: relative;
   }
-  
+  .custom-nav {
+    background-color: #088395;
+}
   
    /*  */
    /*  */
@@ -140,7 +144,7 @@
     right: 0;
     top: 0;
     bottom: 0;
-    background: rgba(3, 60, 73, 0.795);
+    background: rgba(3, 60, 73, 0.999);
   }
   
   @media screen and (max-width: 900px) {
@@ -232,6 +236,8 @@
   ;
 }
 
+
+
 .inner-container h1{
     margin-bottom: 30px;
     font-size: 30px;
@@ -312,6 +318,12 @@ margin: auto;
 /* font-size: 80px !important; */
 
 
+.bling{
+  justify-content: center;
+  align-items: center;
+}
+
+
 
 .str{
   margin-top: 40px;
@@ -328,6 +340,28 @@ margin: auto;
   
 }
 
+/* board trusties section */
+
+
+.trusties-title{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 50px;
+  margin-bottom: 50px;
+} 
+
+
+
+.tile-image{
+  width: 320px;
+  padding:0px 40px 60px  0px;
+ }
+
+ 
+ .service-p{
+  text-align: justify;
+
+ }
 
 
 
